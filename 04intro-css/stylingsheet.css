@@ -1,0 +1,180 @@
+/* general body here */
+body {
+    font-family: "Montserrat", sans-serif;
+
+}
+
+/*header stuff here */
+header {
+    background-color: #2a2c24;
+    padding: 2rem 20px;
+
+}
+
+header span {
+    color: #eee;
+    font-size: 2rem;
+    font-weight: 800;
+    letter-spacing: .1rem;
+
+}
+
+/* Navigation here */
+
+nav {
+    background-color: #f4f4f4;
+
+}
+
+nav ul {
+    margin: 0;
+    padding: 0 8px;
+    list-style-type: none;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #2a2c24;
+    font-weight: 700;
+}
+
+nav li.active a {
+    background-color: #575a4b;
+    color: #cfcfea;
+
+}
+
+nav li a:hover {
+    color: #cfcfea;
+}
+
+/* Main Here */
+
+main {
+    padding: 1rem 5rem;
+}
+
+main h1 {
+
+    font-weight: 700;
+    font-size: 5rem;
+    font-weight: 800;
+    letter-spacing: .1rem;
+    text-align: center;
+
+}
+
+main h2 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+    margin-left: 4rem;
+}
+
+main p {
+    margin: 0;
+    color: #2a2c24;
+    font-weight: 400;
+    margin-left: 4rem;
+
+}
+
+main ol {
+    margin-left: 4rem;
+
+}
+
+main ol li {
+    margin-left: 2rem;
+    background-color: #f4f4f4;
+    list-style: square;
+    list-style-position: inside;
+    padding: 1rem;
+    font-weight: 300;
+
+}
+
+main ul {
+    background-color: #f4f4f4;
+    list-style: circle;
+    margin-left: 8.5rem;
+    padding: 1rem;
+    list-style-position: inside;
+    font-weight: 300;
+
+}
+
+main strong {
+    font-weight: 600;
+    color: #575A4B;
+}
+
+main a {
+    color: #816c61;
+
+}
+
+main a:hover {
+
+    color: #a89b9d;
+}
+
+main dl {
+    margin-left: 4rem;
+    background-color: #f4f4f4;
+    padding: 1rem;
+
+}
+
+main dl dt strong {
+    font-weight: 700;
+}
+
+main dl dd em {
+    font-weight: 300;
+
+    ;
+}
+
+main h3 {
+    background-position: left;
+    background-color: #a89b9d;
+    margin-left: 4rem;
+    padding: 1rem;
+    color: #f4f4f4;
+    font-weight: 500;
+    font-style: italic;
+
+
+}
+
+main address {
+    margin-left: 4rem;
+
+    color: #f4f4f4;
+    background-color: #a89b9d;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-weight: 500;
+}
+
+/* footer stuff here */
+
+footer {
+
+    background-color: #2a2c24;
+    text-align: center;
+    padding: 1rem 0;
+
+
+}
+
+footer p {
+    margin: 0;
+    font-size: .8rem;
+    color: #eee;
+    letter-spacing: 3px;
+}
