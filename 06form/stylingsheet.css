@@ -246,13 +246,15 @@ div.gallery figcaption {
 .contact_form label,
 .contact_form select,
 .contact_form [type="text"],
-.contact_form [type="tel"] {
+.contact_form [type="tel"],
+.contact_form [type="email"] {
     display: block;
     color: #2a2c24;
 }
 
 .contact_form [type="text"],
 .contact_form [type="tel"],
+.contact_form [type="email"],
 .contact_form select,
 .contact_form textarea {
 
