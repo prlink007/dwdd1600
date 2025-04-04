@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Paul Lingenbrink">
+    <meta name="description" content="about/contacts">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>CritiqueCinema: About/Contacts</title>
+    <link rel="stylesheet" href="stylingsheet.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+</head>
+
+<body>
+    <!--Start the page head-->
+    <header>
+        <div>
+        <img src="images/logo.png" alt="logo for site" width="100" height="76">
+        <span>CRITIQUE CINEMA</span>
+        <!--<span>PRL Design CO.</span> -->
+    </div>
+    </header>
+    <!-- Start the page navigation-->
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li class="active"><a href="form.html">Contact Us</a></li>
+
+
+        </ul>
+
+
+    </nav>
+    <!-- Start the Introductions, about the Creators-->
+    <main>
+        <h1>CONTACT US</h1>
+
+        <!--Our Critics (people) information -->
+        <form method="get" class="contact_form" action="thanks.html">
+            <fieldset>
+                <legend>Your Information:</legend>
+                <label>First Name *<input type="text" name="fname" required></label>
+                <label>Last Name *<input type="text" name="lname" required></label>
+                <label>Email Address *<input type="email" name="email" required placeholder="email@critiquecinema.com"></label>
+                <label>Cell Number *<input type="tel" name="phone" required placeholder="888-888-8888"></label>
+            </fieldset>
+
+
+            <fieldset>
+                <legend>Experience in film Critiquing:</legend>
+                <label><input type="radio" name="experience" value="Beginner"> Just getting started</label>
+                <label><input type="radio" name="experience" value="Intermediate"> Some experience writing or
+                    analyzing</label>
+                <label><input type="radio" name="experience" value="Robot"> Professional or Long-time critic</label>
+            </fieldset>
+
+
+            <fieldset>
+                <legend>What areas of film critique are you interested in?</legend>
+                <label><input type="checkbox" name="interest" value="narrative_analysis"> Narrative/Story
+                    Analysis</label>
+                <label><input type="checkbox" name="interest" value="cinematography"> Cinematography & Visual
+                    Style</label>
+                <label><input type="checkbox" name="interest" value="editing_pacing"> Editing & Pacing</label>
+                <label><input type="checkbox" name="interest" value="sound_music"> Sound Design & Music</label>
+
+
+            </fieldset>
+            <fieldset class="genre_critique">
+                <legend>Preferred Genre to Critique:</legend>
+                
+                <label for="fav_genre">Select a genre:</label>
+                <select name="fav_genre" id="fav_genre">
+                  <option value="none">--Please choose an option--</option>
+                  <option value="drama">Drama</option>
+                  <option value="comedy">Comedy</option>
+                  <option value="horror">Horror</option>
+                  <option value="sci_fi">Sci-Fi</option>
+                  <option value="documentary">Documentary</option>
+                  <option value="action">Action</option>
+                  <option value="romance">Romance</option>
+                  <option value="arthouse">Arthouse / Indie</option>
+                </select>
+              </fieldset>
+              
+
+            
+                    <div class="comment">
+                        <div class="your-div-style">
+                          <span class="your-span-style">Share your top five movies:</span>
+                        </div>
+                        <label for="comments"> <!-- Link to the textarea by ID -->
+                          <textarea id="comments" name="comments" placeholder="Place text here:"></textarea>
+                        </label>
+                      </div>
+                      
+
+
+
+
+
+            <div class="action_submit">
+            <input type="submit" value="Lights, Camera, SUBMIT!">
+        </div>
+        </form>
+
+
+    </main>
+
+    <!-- Start the page footer-->
+    <footer>
+
+        <p>&copy;2025 Paul Lingenbrink &bull; Web Essentials</p>
+
+    </footer>
+
+
+
+</body>
+
+</html>
