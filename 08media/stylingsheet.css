@@ -1,0 +1,613 @@
+/* general body here */
+
+/* prevent problms with different browsers*/
+* {box-sizing: border-box;}
+
+
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+
+}
+
+/*header stuff here */
+header {
+    background-image: linear-gradient(to bottom, #545848, #2a2c24 );
+    padding: 2rem 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+header div{
+
+        padding-left: 1vw;
+}
+header div img{
+   position: relative;
+   top: .4rem;
+
+
+}
+
+
+header span {
+    color: #eee;
+    font-size: 2rem;
+    font-weight: 800;
+    letter-spacing: .1rem;
+    margin-left: 10px;
+
+}
+/* max-width and min*/
+/*small screens*/
+@media only screen and (max-width: 600px) {
+    nav {
+        background-color: #f4f4f4;
+    
+    }
+    
+    nav ul {
+        margin: 0;
+        padding: 0 8px;
+        list-style-type: none;
+    }
+    
+    nav a {
+        display: block;
+        padding: 1rem;
+        text-decoration: none;
+        text-align: center;
+        font-size: 1.2rem;
+        color: #2a2c24;
+        font-weight: 700;
+    
+    }
+    
+    nav li.active a {
+        transition: background-color .3s ease;
+        background-image: linear-gradient(to bottom, #545848, #2a2c24 );
+        color: #cfcfea;
+    
+    }
+    
+    nav li a:hover {
+        color: #cfcfea;
+       
+
+       
+    }
+    
+    /*header, nav, main, footer {
+        background-color: #816c61;
+
+
+
+    }*/
+
+
+
+}
+/*wide screens */ 
+@media only screen and (min-width: 601px) {
+
+    nav {
+        background-color: #f4f4f4;
+    
+    }
+    
+    nav ul {
+        margin: 0;
+        padding: 0 8px;
+        list-style-type: none;
+        display: flex;
+    }
+    
+    nav a {
+        display: block;
+        padding: 1rem;
+        text-decoration: none;
+        font-size: 1.2rem;
+        color: #2a2c24;
+        font-weight: 700;
+    
+    }
+    
+    nav li.active a {
+        background-image: linear-gradient(to bottom, #545848, #2a2c24 );
+        color: #cfcfea;
+        
+    
+    }
+    
+    nav li a:hover {
+        color: #cfcfea;
+        border-bottom: solid #a89b9d;
+    }
+    
+
+}
+
+
+
+
+
+
+/* Navigation here */
+
+
+/* Main Here */
+
+main {
+    padding: 1rem 5rem;
+}
+
+main h1 {
+
+    font-weight: 700;
+    font-size: 5rem;
+    font-weight: 800;
+    letter-spacing: .1rem;
+    text-align: center;
+
+}
+
+main h2 {
+    font-weight: 600;
+    margin-bottom: 1rem;
+    margin-left: 4rem;
+}
+
+main p {
+    margin: 0;
+    color: #2a2c24;
+    font-weight: 400;
+    margin-left: 4rem;
+
+}
+
+main ol {
+    margin-left: 4rem;
+
+}
+
+main ol li {
+    margin-left: 2rem;
+    background-color: #f4f4f4;
+    list-style: square;
+    list-style-position: inside;
+    padding: 1rem;
+    font-weight: 300;
+    
+}
+
+main ul {
+    background-color: #f4f4f4;
+    list-style: circle;
+    margin-left: 8.5rem;
+    padding: 1rem;
+    list-style-position: inside;
+    font-weight: 300;
+
+}
+
+main strong {
+    font-weight: 600;
+    color: #575A4B;
+}
+
+main a {
+    color: #816c61;
+
+}
+
+main a:hover {
+
+    color: red;
+
+}
+
+main dl {
+    margin-left: 4rem;
+    background-color: #f4f4f4;
+    padding: 1rem;
+
+}
+
+main dl dt strong {
+    font-weight: 700;
+}
+
+main dl dd em {
+    font-weight: 300;
+
+    ;
+}
+
+main h3 {
+    background-position: left;
+    background-color: #a89b9d;
+    margin-left: 4rem;
+    padding: 1rem;
+    color: #f4f4f4;
+    font-weight: 500;
+    font-style: italic;
+
+
+}
+
+main address {
+    margin-left: 4rem;
+
+    color: #f4f4f4;
+    background-color: #a89b9d;
+    padding: 1rem;
+    margin-top: 1rem;
+    font-weight: 500;
+    border-radius: 10px;
+    border: 1px solid #f4f4f4;
+    width: 200px;
+}
+main p.hesnotkidding{
+margin: 2rem 0 0 0 ;
+margin-left: 4rem;
+
+}
+main h2.samplevideo{
+    margin:2rem,0,2rem,0 ;
+}
+
+/* image for Home */
+figure.camera_reel {
+
+    width: 30%;
+    margin: 0 0 0 2%;
+    float: right;
+
+
+
+
+
+}
+
+
+figure.camera_reel img {
+    width: 100%;
+    height: auto;
+}
+
+figure.camera_reel figcaption {
+    background-color: #f4f4f4;
+    color: #816c61;
+    text-align: center;
+
+}
+
+/* Gallery flexbox manipulation here */
+div.gallery {
+
+    display: flex;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to bottom, #a89b9d, #2a2c24 );
+    padding: 1rem;
+
+}
+
+div.gallery figure {
+    margin: .5rem 2% 0 0;
+
+
+}
+
+div.gallery figcaption {
+    text-align: center;
+    font-size: .8rem;
+    color: #2a2c24;
+    background-color: #eee;
+}
+.gallery img{
+width: 98%;
+height: auto;
+
+}
+.gallery img:hover{
+
+    box-shadow: 0px 0px 40px #c1c1dc;
+
+}
+/* the Hero Image */
+
+.moviehero{
+    width: 100%;
+    margin:0;
+
+}
+.moviehero img{
+    width: 100%;
+    height: auto;
+
+
+}
+
+
+
+
+/*Contact Us form information here */
+
+.contact_form {
+    background-image: linear-gradient(to bottom, #f4f4f4,#dbdada);
+    padding: 1rem;
+    margin-bottom: 3rem;
+    margin-top: -2rem;
+
+
+}
+
+.contact_form fieldset {
+    border: 1px solid #cfcfea;
+    margin-bottom: 1rem;
+
+
+
+}
+
+
+.contact_form legend {
+    font-size: 1rem;
+    font-weight: 600;
+
+
+}
+.genre_critique{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.contact_form label,
+.contact_form select,
+.contact_form [type="text"],
+.contact_form [type="tel"],
+.contact_form [type="email"] {
+    display: block;
+    color: #2a2c24;
+}
+
+.contact_form [type="text"],
+.contact_form [type="tel"],
+.contact_form [type="email"],
+.contact_form select,
+.contact_form textarea {
+
+    border: solid 1px #888;
+    padding: .3rem;
+    width: 250px;
+    border-radius: .3rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 350;
+    font-size: 12px;
+    color: #575A4B;
+
+}
+
+.contact_form textarea {
+    margin-top: 1rem;
+    display: block;
+
+}
+
+.comment div {
+
+    margin-top: -.7rem;
+    font-size: 1rem;
+    font-weight: 600;
+
+
+
+}
+
+.comment {
+    border: 1px solid #cfcfea;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 0 0 1rem .9rem;
+
+
+}
+.genre_critique label{
+
+    font-weight: 300;
+}
+
+.comment span {
+    background: #f4f4f4;
+    padding: 0 2px;
+}
+
+.comment textarea {
+    height: 6rem;
+
+}
+
+.contact_form :required {
+
+    background-color: #eee;
+}
+
+/*.contact_form [type=submit]{
+    background-color:#a89b9d;
+    border: none;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    color: white;
+
+
+}*/
+.action_submit [type="submit"] {
+    background-color: #a89b9d;
+    color: #eee;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 0 0 1rem 1.3rem;
+    /*
+        
+        
+        
+        
+        text-transform: uppercase;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        */
+
+
+}
+
+input:focus::placeholder {
+    color: transparent;
+}
+
+textarea:focus::placeholder {
+    color: transparent;
+}
+
+.action_submit [type="submit"]:hover {
+
+    background-color: #575A4B;
+    color: #eee;
+    font-weight: 700;
+}
+
+
+/* Thankyou style here */
+.thankyou {
+    background-color: #f4f4f4;
+    color: #2a2c24;
+    box-shadow: 4rem 1rem 0 0 white inset, -2rem 3rem 0 0 white inset;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.thankyou h1 {
+    margin: 0 0 1rem 0;
+    font-size: 3rem;
+}
+
+.thankyou p {
+    margin: 0 0 2rem 0;
+    font-size: .7rem;
+    text-align: center;
+}
+
+.thankyou figure {
+    margin: 0 auto;
+    display: inline-block;
+    background-color: #f4f4f4; /* your style */
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.thankyou img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.thankyou figcaption {
+    text-align: center;
+    font-size: 0.75rem;
+    margin-top: 0.5rem;
+}
+
+/* This part is the table for the Testimonials */
+table.cinema-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 2rem 0 2rem 0;
+    white-space: nowrap;
+}
+
+table.cinema-table th {
+    background-color: #545848;
+    color: white;
+    padding: .5rem 2vw;
+    text-align: left;
+}
+
+table.cinema-table td {
+    color: #2a2c24;
+    padding: .4rem 2vw;
+
+}
+
+table.cinema-table tr:nth-child(odd) {
+        background-color:  #f4f4f4;
+
+    }
+table.cinema-table tr:hover {
+        background-color: #a7ad8b;
+        color: white;
+
+    }
+
+table.cinema-table td:hover{
+    color:#eee;
+}
+main .youtube{
+    margin-bottom: 2rem;
+}
+main .brochure:hover{
+    color:red;
+
+}
+main .recording {
+    margin-top: 1rem;
+    font-weight: 200;
+
+}
+audio{
+    width: 50%;
+    padding: 1rem;
+    position: relative;
+    left:3rem;
+}
+/* footer stuff here */
+
+footer {
+
+    background-color: #2a2c24;
+    text-align: center;
+    padding: 1rem 0;
+    clear: both;
+
+
+}
+
+footer p {
+    margin: 0;
+    font-size: .8rem;
+    color: #eee;
+    letter-spacing: 3px;
+}
+
+.end {
+
+    margin: 5rem;
+    background-color: #2a2c24;
+    text-align: center;
+    padding: 1rem 0;
+    clear: both;
+}
+
+
+/* to all the website */
+
+header, nav, main, footer {
+
+        max-width: 64rem;
+        margin:0 auto;
+
+
+}
